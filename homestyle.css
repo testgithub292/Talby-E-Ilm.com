@@ -1,0 +1,417 @@
+
+.navbarcolorstyle{
+  background-color:#0275dd;
+  
+}
+#navbarcolorstyle{
+background-color:#0275dd;
+}
+
+#textstyle{
+  color: white;
+}
+#accountDropdown{
+color: white;
+}
+#servicesDropdown{
+color: white;
+}
+#navbarDropdown{
+  color: white;
+  text-decoration: none;
+}
+
+
+#offcanvasNavbarDropdown{
+background-color: #0275dd;
+  color: white;
+}
+#dropdownitemcolor{
+  background-color: #0275dd;
+  color: white;
+}
+.navbar-toggler-icon{
+  background-color: aliceblue;
+  border-radius: 3px;
+  
+}
+
+.nav-link.dropdown-toggle::after {
+display: none;
+}
+
+@media (max-width: 992px) {
+
+
+.navbar-toggler {
+    color: white !important;
+}
+
+
+}
+
+
+/*Nav bar style end*/ 
+/*Nav bar style end*/ 
+
+
+
+/* Fullscreen loading animation 
+#loading {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Spinner styling 
+.spinner {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #3498db;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+/* Keyframes for spinner animation 
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Hide content by default 
+#content {
+  display: none;
+}*/
+
+/* General styles */
+body {
+  text-align: center;
+  background: black;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Hide scrollbars during loading */
+}
+
+/* Loading animation styles */
+#loading {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: black;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Atom animation styles */
+#atom {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+}
+
+#nucleus,
+.orbit,
+.electron,
+.orbitTrain,
+.electronTrain {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+#nucleus {
+  background: #2196f3;
+  box-shadow: 0 0 15px #2196f3;
+  animation: shining 2s infinite linear;
+}
+
+.orbit:before {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.orbit {
+  width: 200px;
+  height: 200px;
+  border: 0;
+  transform-style: preserve-3d;
+  animation: orbitSpecial 1.5s infinite linear;
+}
+
+.orbit .electron {
+  position: relative;
+  top: 95px;
+  width: 10px;
+  height: 10px;
+  background: #ff9800;
+  box-shadow: 0 0 15px #ff9800;
+  border-radius: 50%;
+  transform: translateX(100px);
+  animation: electronAnimation 1.5s infinite linear;
+}
+
+.orbit:nth-child(4) {
+  transform: rotateY(65deg) rotateX(5deg);
+  animation-delay: -1s;
+}
+.orbit:nth-child(4) .electron {
+  animation-delay: -1s;
+}
+
+.orbit:nth-child(2) {
+  transform: rotateY(65deg) rotateX(-54deg);
+  animation-delay: -1s;
+  animation-duration: 1s;
+}
+.orbit:nth-child(2) .electron {
+  animation-duration: 1s;
+}
+
+.orbit:nth-child(3) {
+  transform: rotateY(65deg) rotateX(54deg);
+}
+
+@keyframes electronAnimation {
+  0% {
+      transform: rotateZ(0deg) translateX(100px) rotateZ(0deg) rotateY(-65deg);
+  }
+  100% {
+      transform: rotateZ(360deg) translateX(100px) rotateZ(-360deg) rotateY(-65deg);
+  }
+}
+
+@keyframes orbitSpecial {
+  0% {
+      border: 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  35% {
+      border: 0;
+      border-right: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  70% {
+      border: 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  100% {
+      border: 0;
+      border-left: 1px solid rgba(255, 255, 255, 0.5);
+  }
+}
+
+@keyframes shining {
+  0% {
+      box-shadow: 0 0 0 transparent;
+  }
+  50% {
+      box-shadow: 0 0 40px #2196f3;
+  }
+  100% {
+      box-shadow: 0 0 0 transparent;
+  }
+}
+
+/* Hide content by default */
+#content {
+  display: none;
+}
+
+
+/*------------------modal punjab books-- start-----------------------------------------
+----------------------------------------------------------------------
+---------------------------------------------------------------------*/
+#modal-header-books{
+  background-color:#0275dd !important;
+}
+#modal-body-books{
+  background-color: rgba(255, 140, 0, 0.479);
+}
+#modal-footer-books{
+  background-color: #0275dd !important;
+}
+.modalcontent{
+  text-align: start;
+  margin-top: 5px;
+}
+
+
+/*------------------modal punjab books-- end-----------------------------------------
+----------------------------------------------------------------------
+---------------------------------------------------------------------*/
+
+
+/*---------------btn books start--------------------------------------------------------
+---------------------------------------------------------
+-------------------------------------------------------*/
+
+.btn-6th-islamia-book{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #0277dd;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border: hidden;
+}
+.btn-6th-islamia-book:hover{
+  background-color: #0277dda9;
+}
+
+
+.btn-7th-islamia-book{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color:brown;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border: hidden;
+}
+.btn-7th-islamia-book:hover{
+  background-color: rgba(165, 42, 42, 0.589);
+}
+
+.btn-8th-islamia-book{
+  border: 1px solid black;
+  border-radius: 5px;
+  border: hidden;
+  background-color:darkcyan;
+  color: white;
+  width: 100px;
+  height: 40px;
+}
+.btn-8th-islamia-book:hover{
+  background-color: rgba(0, 139, 139, 0.575);
+}
+.btn-6-7-8-adjus{
+  text-align: center;
+}
+.btn-9th-islamia-book{
+  border: 1px solid black;
+  border-radius: 5px;
+  border: hidden;
+  background-color:darkslategrey;
+  color: white;
+  width: 120px;
+  height: 40px;
+}
+.btn-9th-islamia-book:hover{
+  background-color: rgba(47, 79, 79, 0.801);
+}
+.btn-9-islamia{
+  text-align: center;
+  margin-top: 5px;
+}
+.btn-10th-islamia-book{
+  border: 1px solid black;
+  border-radius: 5px;
+  border: hidden;
+  background-color:deeppink;
+  margin-top: 5px;
+  color: white;
+  width: 120px;
+  height: 40px;
+}
+.btn-10th-islamia-book:hover{
+  background-color: rgba(47, 79, 79, 0.801);
+}
+
+.btn-11th-islamia-book{
+  border: 1px solid black;
+  border-radius: 5px;
+  border: hidden;
+  background-color:blueviolet;
+  margin-top: 5px;
+  color: white;
+  width: 100px;
+  height: 40px;
+}
+.btn-11th-islamia-book:hover{
+  background-color: rgba(137, 43, 226, 0.479);
+}
+
+.btn-12th-islamia-book{
+  border: 1px solid black;
+  border-radius: 5px;
+  border: hidden;
+  background-color:crimson;
+  margin-top: 5px;
+  color: white;
+  width: 100px;
+  height: 40px;
+}
+.btn-12th-islamia-book:hover{
+  background-color: rgba(220, 20, 60, 0.514);
+}
+.btn-adjust-3{
+  text-align: center;
+}
+@media (max-width: 380px) {
+  .btn-7th-islamia-book{
+    margin-top: 5px;
+  }
+  .btn-9th-islamia-book{
+    margin-top: 5px;
+  }
+}
+@media (max-width: 485px) {
+  .btn-9th-islamia-book{
+    margin-top: 5px;
+    text-align: center;
+  }
+  .btn-9-islamia{
+    text-align: center;
+  }
+}
+@media (max-width: 380px) {
+  .btn-11th-islamia-book{
+    width: 120px;
+  }
+  .btn-12th-islamia-book{
+    width: 120px;
+  }
+} 
+
+@media (max-width: 380px) {
+
+  .btn-6th-islamia-book{
+    width: 120px;
+  }
+  .btn-7th-islamia-book{
+    width: 120px;
+  }
+
+  .btn-8th-islamia-book{
+    margin-top: 5px;
+    width: 120px;
+  }
+}
+/*---------------btn books end--------------------------------------------------------
+---------------------------------------------------------
+-------------------------------------------------------*/

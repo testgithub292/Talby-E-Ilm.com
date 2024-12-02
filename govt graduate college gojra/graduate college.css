@@ -1,0 +1,374 @@
+.navbarcolorstyle{
+    background-color:#0275dd;
+    
+}
+#navbarcolorstyle{
+  background-color:#0275dd;
+}
+
+#textstyle{
+    color: white;
+}
+#accountDropdown{
+  color: white;
+}
+#servicesDropdown{
+  color: white;
+}
+#navbarDropdown{
+    color: white;
+    text-decoration: none;
+}
+
+
+#offcanvasNavbarDropdown{
+  background-color: #0275dd;
+    color: white;
+}
+#dropdownitemcolor{
+    background-color: #0275dd;
+    color: white;
+}
+.navbar-toggler-icon{
+    background-color: aliceblue;
+    border-radius: 3px;
+    
+}
+ 
+.nav-link.dropdown-toggle::after {
+  display: none;
+}
+
+@media (max-width: 992px) {
+
+  
+  .navbar-toggler {
+      color: white !important;
+  }
+  
+ 
+}
+
+/*Nav bar style end*/ 
+
+/* college information bts style start*/
+.btngraduatecollege{
+  border: 1px solid black;
+  height: 200px;
+  background-color:greenyellow;
+  border: hidden;
+}
+
+.btndecoration{
+  margin-top: 70px;
+text-decoration: none;
+background-color: DodgerBlue;
+border: none;
+color: white;
+padding: 12px 16px;
+font-size: 16px;
+cursor: pointer;
+
+}
+
+.btndecoration:hover{
+  background-color: #0277ddb2;
+}
+
+.btndecoration2{
+  margin-top: 70px;
+text-decoration: none;
+background-color: red;
+border: none;
+color: white;
+padding: 12px 16px;
+font-size: 16px;
+cursor: pointer;
+}
+
+.btndecoration2:hover{
+  background-color: rgba(255, 0, 0, 0.651);
+}
+
+.btndecoration3{
+  margin-top: 70px;
+  text-decoration: none;
+  background-color:darkcyan;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 120px;
+}
+.btndecoration3:hover{
+  background-color: rgba(0, 139, 139, 0.658);
+}
+
+@media (max-width: 520px){
+  #btndecroationadjust{
+    display:inline-block;
+    margin-top: 40px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 450px){
+  #btndecroationadjust{
+    margin-top: 15px;
+    width: 300px;
+  }
+}
+@media (max-width: 470px){
+  #btndecroationadjust{
+    margin-top: 15px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 335px){
+  #btndecroationadjust{
+    margin-top: 15px;
+    width: 250px;
+  }
+}
+
+/* college information bts style end*/
+
+.libraryborderstyle {
+  background: linear-gradient(-45deg, #aaee52, #31bbc57c, #23a5d5a6, #5823d5);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+ 
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.libraryborderstyle{
+  border: 1px solid black;
+  height: 800px;
+  margin-top: 80px;
+  background-color:beige;
+  border: hidden;
+}
+
+.librarytextstyle{
+  padding-top: 30px;
+  text-align: center;
+  color:cadetblue;
+  margin-bottom: 40px;
+}
+#imgstyle{
+margin-top: 20px;
+}
+
+@media (max-width: 773px){
+  #imgstyle2{
+    margin-top: 20px;
+  }
+ .libraryborderstyle{
+  height: 1500px;
+ }
+}
+
+@media (max-width: 335px){
+  #imgstyle{
+    width: 350px !important;
+  }
+  #imgstyle2{
+    width: 350px !important;
+  }
+}
+
+@media (max-width: 470px){
+  #imgstyle{
+    width: 300px !important;
+  }
+  #imgstyle2{
+    width: 350px !important;
+  }
+
+}
+
+/*------------------modal punjab books-- start-----------------------------------------
+----------------------------------------------------------------------
+---------------------------------------------------------------------*/
+#modal-header-books{
+  background-color:#0275dd !important;
+}
+#modal-body-books{
+  background-color: rgba(255, 140, 0, 0.479);
+}
+#modal-footer-books{
+  background-color: #0275dd !important;
+}
+.modalcontent{
+  text-align: start;
+  margin-top: 5px;
+}
+
+
+/*------------------modal punjab books-- end-----------------------------------------
+----------------------------------------------------------------------
+---------------------------------------------------------------------*/
+
+
+/*---------------btn books start--------------------------------------------------------
+---------------------------------------------------------
+-------------------------------------------------------*/
+
+.btn-6th-islamia-book{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #0277dd;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border: hidden;
+}
+.btn-6th-islamia-book:hover{
+  background-color: #0277dda9;
+}
+
+
+.btn-7th-islamia-book{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color:brown;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border: hidden;
+}
+.btn-7th-islamia-book:hover{
+  background-color: rgba(165, 42, 42, 0.589);
+}
+
+.btn-8th-islamia-book{
+  border: 1px solid black;
+  border-radius: 5px;
+  border: hidden;
+  background-color:darkcyan;
+  color: white;
+  width: 100px;
+  height: 40px;
+}
+.btn-8th-islamia-book:hover{
+  background-color: rgba(0, 139, 139, 0.575);
+}
+.btn-6-7-8-adjus{
+  text-align: center;
+}
+.btn-9th-islamia-book{
+  border: 1px solid black;
+  border-radius: 5px;
+  border: hidden;
+  background-color:darkslategrey;
+  color: white;
+  width: 120px;
+  height: 40px;
+}
+.btn-9th-islamia-book:hover{
+  background-color: rgba(47, 79, 79, 0.801);
+}
+.btn-9-islamia{
+  text-align: center;
+  margin-top: 5px;
+}
+.btn-10th-islamia-book{
+  border: 1px solid black;
+  border-radius: 5px;
+  border: hidden;
+  background-color:deeppink;
+  margin-top: 5px;
+  color: white;
+  width: 120px;
+  height: 40px;
+}
+.btn-10th-islamia-book:hover{
+  background-color: rgba(47, 79, 79, 0.801);
+}
+
+.btn-11th-islamia-book{
+  border: 1px solid black;
+  border-radius: 5px;
+  border: hidden;
+  background-color:blueviolet;
+  margin-top: 5px;
+  color: white;
+  width: 100px;
+  height: 40px;
+}
+.btn-11th-islamia-book:hover{
+  background-color: rgba(137, 43, 226, 0.479);
+}
+
+.btn-12th-islamia-book{
+  border: 1px solid black;
+  border-radius: 5px;
+  border: hidden;
+  background-color:crimson;
+  margin-top: 5px;
+  color: white;
+  width: 100px;
+  height: 40px;
+}
+.btn-12th-islamia-book:hover{
+  background-color: rgba(220, 20, 60, 0.514);
+}
+.btn-adjust-3{
+  text-align: center;
+}
+@media (max-width: 380px) {
+  .btn-7th-islamia-book{
+    margin-top: 5px;
+  }
+  .btn-9th-islamia-book{
+    margin-top: 5px;
+  }
+}
+@media (max-width: 485px) {
+  .btn-9th-islamia-book{
+    margin-top: 5px;
+    text-align: center;
+  }
+  .btn-9-islamia{
+    text-align: center;
+  }
+}
+@media (max-width: 380px) {
+  .btn-11th-islamia-book{
+    width: 120px;
+  }
+  .btn-12th-islamia-book{
+    width: 120px;
+  }
+}
+
+@media (max-width: 380px) {
+
+  .btn-6th-islamia-book{
+    width: 120px;
+  }
+  .btn-7th-islamia-book{
+    width: 120px;
+  }
+
+  .btn-8th-islamia-book{
+    margin-top: 5px;
+    width: 120px;
+  }
+}
+/*---------------btn books end--------------------------------------------------------
+---------------------------------------------------------
+-------------------------------------------------------*/

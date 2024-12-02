@@ -1,0 +1,746 @@
+
+.navbarcolorstyle{
+  background-color:#0275dd;
+  
+}
+
+#navbarcolorstyle{
+background-color:#0275dd;
+}
+
+#textstyle{
+  color: white;
+}
+#accountDropdown{
+color: white;
+}
+#servicesDropdown{
+color: white;
+}
+#navbarDropdown{
+  color: white;
+  text-decoration: none;
+}
+
+
+#offcanvasNavbarDropdown{
+background-color: #0275dd;
+  color: white;
+}
+#dropdownitemcolor{
+  background-color: #0275dd;
+  color: white;
+}
+.navbar-toggler-icon{
+  background-color: aliceblue;
+  border-radius: 3px;
+  
+}
+
+
+.nav-link.dropdown-toggle::after {
+display: none;
+}
+
+#pastpapermatricboxstyle{
+  
+text-align: center;
+ background-color: lavender; 
+ width:400px;
+ height: 200px;
+ margin-top: 30px;
+ border-radius: 5px;
+ padding-top: 30px;
+}
+
+
+
+
+
+@media (max-width: 992px) {
+
+
+.navbar-toggler {
+    color: white !important;
+}
+
+}
+
+/*Nav bar style end*/ 
+
+
+
+
+.ppmt{
+    border: 1px solid black;
+    margin-top: 56px;
+    height: 200px;
+    /*width: 100%;*/
+   background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    border: hidden;
+    text-align: center;
+    padding-top: 80px;
+    color: lavender;
+}
+
+.ppmt h1:hover{
+    color:darkslategrey;
+}
+
+.ppm910{
+    border: 1px solid black;
+    height: 230px;
+    text-align: center;
+    padding-top: 50px;
+    border: hidden;
+    background-color:lavender;
+    margin-top: 20px;
+    border-radius: 5px;
+    
+}
+
+
+m910 h2{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.stylebtn9th{
+    text-decoration: none;
+    background-color: aqua;
+     
+}
+
+/*.ppm9{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 280px;
+    text-align: center;
+    padding-top: 50px;
+    border: hidden;
+    background-color: lavender;
+    margin-top: 20px;
+}*/
+
+#pp9punjab{
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 280px;
+  text-align: center;
+  padding-top: 50px;
+  border: hidden;
+  background-color: lavender;
+  margin-top: 20px;
+}
+#pp9kpk{
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 280px;
+  text-align: center;
+  padding-top: 50px;
+  border: hidden;
+  background-color: lavender;
+  margin-top: 20px;
+}
+#ppsindh{
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 230px;
+  text-align: center;
+  padding-top: 50px;
+  border: hidden;
+  background-color: lavender;
+  margin-top: 20px;
+}
+#ppm9blo{
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 200px;
+  text-align: center;
+  padding-top: 50px;
+  border: hidden;
+  background-color: lavender;
+  margin-top: 20px;
+}
+
+/*10th class style*/
+#pp10punjab{
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 280px;
+  text-align: center;
+  padding-top: 50px;
+  border: hidden;
+  background-color: lavender;
+  margin-top: 20px;
+}
+
+#pp10kpk{
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 280px;
+  text-align: center;
+  padding-top: 50px;
+  border: hidden;
+  background-color: lavender;
+  margin-top: 20px;
+}
+#pp10sindh{
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 230px;
+  text-align: center;
+  padding-top: 50px;
+  border: hidden;
+  background-color: lavender;
+  margin-top: 20px;
+}
+#pp10balo{
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 200px;
+  text-align: center;
+  padding-top: 50px;
+  border: hidden;
+  background-color: lavender;
+  margin-top: 20px;
+}
+
+/* CSS */
+.button-85 {
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 5px;
+}
+
+/*10th class style*/
+
+
+.button-85:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+/*9th class btn style --------------*/
+/* CSS */
+.button-9th {
+    padding: 0.6em 2em;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: 5px;
+  }
+  
+  .button-9th:before {
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-button-85 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  @keyframes glowing-button-9th {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+  .button-9th:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+  
+
+
+@media (max-width: 773px) { 
+
+ 
+    .button-85{
+        margin: 5px;
+    }
+    /*.col-8{
+        width: 50%; 
+    }*/
+    .button-9th{
+        width: 40%;
+        
+    }
+    #pp9punjab{
+      height: 400px;
+    }
+    #pp10punjab{
+      height: 400px;
+    }
+    #pp9kpk{
+      height: 400px;
+    }
+    #pp10kpk{
+      height: 400px;
+    }
+    #ppsindh{
+      height: 300px;
+    }
+    #pp10sindh{
+      height: 300px;
+    }
+    #ppm9blo{
+      height: 200px;
+    }
+    #pp10balo{
+      height: 200px;
+    }
+}
+
+
+@media (min-width: 600px) { 
+
+  .ppm910{
+    width: 300px !important;
+  }
+    .col-8{
+        width: 80% !important; 
+    }
+
+   .button-85{
+    margin-top: 20px;
+   }
+}
+@media (max-width: 600px) { 
+ 
+}
+
+@media (min-width: 500px) { 
+  .ppm910{
+    width: 300px !important;
+  }
+    .col-8{
+        width: 80% !important; 
+    }
+
+    .button-85{
+      margin-top: 20px;
+     }
+   
+}
+@media (min-width: 473px) {
+  .ppm910{
+    width: 300px !important;
+  } 
+    .col-8{
+        width: 90% !important; 
+    }
+    #ppm9blo{
+      height: 220px;
+    }
+    #pp10balo{
+      height: 220px !important;
+    }
+    .button-85{
+      margin-top: 20px;
+     }
+}
+@media (max-width: 473px){
+  .col-8{
+    width: 90% !important; 
+}
+.button-85{
+  margin-top: 20px;
+  font-size: 15px;
+ }
+ #btn11class{
+  font-size: 15px;
+}
+}
+
+@media (max-width: 370px) { 
+    .col-8{
+        width: 100% !important; 
+    }
+   
+    
+    
+    .button-9th{
+        width: 30%;
+    }
+    #ppm9blo{
+      height: 230px !important;
+    }
+    #pp10balo{
+      height: 230px !important;
+    }
+   
+}
+
+@media (max-width: 420px) { 
+  #pp9kpk{
+    height: 450px !important;
+  }
+  #pp10kpk{
+    height: 450px;
+  }
+  #ppm9blo{
+    height: 250px !important;
+  }
+  #pp10balo{
+    height: 250px !important;
+  }
+  #pastpapermatricboxstyle{
+    width: 300px;
+  }
+  #btn11class{
+    font-size: 14px;
+  }
+}
+
+
+
+
+@media (max-width: 473px) { 
+
+    .ppm910col{
+        width: 100% !important;
+    }
+    .button-9th{
+        font-size: 15px;
+        width: 40%;
+       
+    }
+    
+    .col-8{
+        width: 100%; 
+    }
+    #ppm9blo{
+      height: 200px;
+    }
+}
+
+@media (max-width: 473px){
+  .col-8{
+    width: 100% !important;
+  }
+}
+@media (max-width: 320px){
+  .button-9th{
+    width: 120px;
+}
+}
+@media (max-width: 310px){
+  .button-9th{
+    width: 100px;
+    font-size: 12px;
+}
+#btn11class{
+  font-size: 11px;
+}
+.interpastpapertext{
+  font-size: 20px;
+}
+#pastpapermatricboxstyle{
+  width: 250px;
+}
+.button-85{
+  font-size: 12px;
+}
+}
+@media (max-width: 260px){
+  .button-9th{
+    width: 100px;
+    font-size: 10px;
+}
+}
+@media (max-width: 360px){
+  .button-9th{
+    width: 120px;
+    
+}
+}
+
+/*text style shodow*/
+
+.ppmt {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+ /* height: 100vh;*/
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+/*------------------modal punjab books-- start-----------------------------------------
+----------------------------------------------------------------------
+---------------------------------------------------------------------*/
+#modal-header-books{
+  background-color:#0275dd !important;
+}
+#modal-body-books{
+  background-color: rgba(255, 140, 0, 0.479);
+}
+#modal-footer-books{
+  background-color: #0275dd !important;
+}
+.modalcontent{
+  text-align: start;
+  margin-top: 5px;
+}
+
+
+/*------------------modal punjab books-- end-----------------------------------------
+----------------------------------------------------------------------
+---------------------------------------------------------------------*/
+
+
+/*---------------btn books start--------------------------------------------------------
+---------------------------------------------------------
+-------------------------------------------------------*/
+
+.btn-6th-islamia-book{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #0277dd;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border: hidden;
+}
+.btn-6th-islamia-book:hover{
+  background-color: #0277dda9;
+}
+
+
+.btn-7th-islamia-book{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color:brown;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border: hidden;
+}
+.btn-7th-islamia-book:hover{
+  background-color: rgba(165, 42, 42, 0.589);
+}
+
+.btn-8th-islamia-book{
+  border: 1px solid black;
+  border-radius: 5px;
+  border: hidden;
+  background-color:darkcyan;
+  color: white;
+  width: 100px;
+  height: 40px;
+}
+.btn-8th-islamia-book:hover{
+  background-color: rgba(0, 139, 139, 0.575);
+}
+.btn-6-7-8-adjus{
+  text-align: center;
+}
+.btn-9th-islamia-book{
+  border: 1px solid black;
+  border-radius: 5px;
+  border: hidden;
+  background-color:darkslategrey;
+  color: white;
+  width: 120px;
+  height: 40px;
+}
+.btn-9th-islamia-book:hover{
+  background-color: rgba(47, 79, 79, 0.801);
+}
+.btn-9-islamia{
+  text-align: center;
+  margin-top: 5px;
+}
+.btn-10th-islamia-book{
+  border: 1px solid black;
+  border-radius: 5px;
+  border: hidden;
+  background-color:deeppink;
+  margin-top: 5px;
+  color: white;
+  width: 120px;
+  height: 40px;
+}
+.btn-10th-islamia-book:hover{
+  background-color: rgba(47, 79, 79, 0.801);
+}
+
+.btn-11th-islamia-book{
+  border: 1px solid black;
+  border-radius: 5px;
+  border: hidden;
+  background-color:blueviolet;
+  margin-top: 5px;
+  color: white;
+  width: 100px;
+  height: 40px;
+}
+.btn-11th-islamia-book:hover{
+  background-color: rgba(137, 43, 226, 0.479);
+}
+
+.btn-12th-islamia-book{
+  border: 1px solid black;
+  border-radius: 5px;
+  border: hidden;
+  background-color:crimson;
+  margin-top: 5px;
+  color: white;
+  width: 100px;
+  height: 40px;
+}
+.btn-12th-islamia-book:hover{
+  background-color: rgba(220, 20, 60, 0.514);
+}
+.btn-adjust-3{
+  text-align: center;
+}
+@media (max-width: 380px) {
+  .btn-7th-islamia-book{
+    margin-top: 5px;
+  }
+  .btn-9th-islamia-book{
+    margin-top: 5px;
+  }
+}
+@media (max-width: 485px) {
+  .btn-9th-islamia-book{
+    margin-top: 5px;
+    text-align: center;
+  }
+  .btn-9-islamia{
+    text-align: center;
+  }
+}
+@media (max-width: 380px) {
+  .btn-11th-islamia-book{
+    width: 120px;
+  }
+  .btn-12th-islamia-book{
+    width: 120px;
+  }
+} 
+
+@media (max-width: 380px) {
+
+  .btn-6th-islamia-book{
+    width: 120px;
+  }
+  .btn-7th-islamia-book{
+    width: 120px;
+  }
+
+  .btn-8th-islamia-book{
+    margin-top: 5px;
+    width: 120px;
+  }
+}
+/*---------------btn books end--------------------------------------------------------
+---------------------------------------------------------
+-------------------------------------------------------*/

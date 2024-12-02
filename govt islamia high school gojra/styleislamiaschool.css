@@ -1,0 +1,949 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.navbarcolorstyle{
+  background-color:#0275dd;
+  
+}
+#navbarcolorstyle{
+background-color:#0275dd;
+}
+
+#textstyle{ 
+  color: white;
+}
+#accountDropdown{
+color: white;
+}
+#servicesDropdown{
+color: white;
+}
+#navbarDropdown{
+  color: white;
+  text-decoration: none;
+}
+
+
+#offcanvasNavbarDropdown{ 
+background-color: #0275dd;
+  color: white;
+}
+#dropdownitemcolor{
+  background-color: #0275dd;
+  color: white;
+}
+.navbar-toggler-icon{
+  background-color: aliceblue;
+  border-radius: 3px;
+  
+}
+
+.nav-link.dropdown-toggle::after {
+display: none;
+}
+
+@media (max-width: 992px) {
+
+
+.navbar-toggler {
+    color: white !important;
+}
+
+}
+
+/*nav bar style end*/
+.box-img-principal{
+  text-align: center;
+  border: 1px solid black;
+  width: 100%;
+  height: 450px;
+  margin-top: 75px;
+  border-radius: 2px;
+  background-image: url('img-bg-prin.jpeg');
+  background-position: center;
+  background-size: cover;
+  border: hidden;
+  display: flex;
+  justify-content: center;
+}
+#box-shadow{
+  width: 400px;
+  height: 400px;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.692) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+#box-shadow:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.849); 
+}
+.pri-text{
+  margin-top: 5px;
+}
+.pri-text-style{
+  font-family:Arial, Helvetica, sans-serif;
+  color: cornflowerblue;
+  text-shadow: rgba(17, 0, 255, 0.432) 1px 0 10px;
+}
+
+.pri-name-link{
+  text-decoration: none;
+  color:lightskyblue;
+}
+
+@media (max-width: 700px){
+  #imgheadmaster{
+    display: block;
+  }
+  #col-6-headmasterimgstyle{
+    width: 100% !important;
+  }
+
+  #bordercol-img{
+    margin-top: 10px !important;
+    width: 100%;
+  }
+}
+
+
+#bordercol-img{
+ margin-top: 75px;
+ border-radius: 2px;
+}
+
+#carsoulimgstyle{
+  width: 100%;
+  /*border: 1px solid black;*/
+  height: 450px;
+  border: hidden;
+}
+
+
+.textsizeadj{
+  font-size: 30px;
+}
+
+
+    /* college information bts style start*/
+.btngraduatecollege{
+  border: 1px solid black;
+  height: 200px;
+ /* background-color:greenyellow;*/
+  border: hidden;
+}
+
+.btndecoration{
+  margin-top: 70px;
+text-decoration: none;
+background-color: royalblue;
+border: none;
+color: white;
+padding: 12px 16px;
+font-size: 16px;
+cursor: pointer;
+
+}
+
+.btndecoration:hover{
+  background-color: rgba(65, 105, 225, 0.589);
+}
+
+.btndecoration2{
+  margin-top: 70px;
+text-decoration: none;
+background-color: red;
+border: none;
+color: white;
+padding: 12px 16px;
+font-size: 16px;
+cursor: pointer;
+}
+
+.notesiconstle{
+  width: 25px;
+  margin-right: 5px;
+}
+
+.btndecoration2:hover{
+  background-color: rgba(255, 0, 0, 0.651);
+}
+
+.btndecoration3{
+  margin-top: 70px;
+  text-decoration: none;
+  background-color:darkcyan;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 120px;
+}
+.btndecoration3:hover{
+  background-color: rgba(0, 139, 139, 0.658);
+}
+
+.btndecoration4{
+  margin-top: 70px;
+  text-decoration: none;
+  background-color:bisque;
+  border: none;
+  color:black;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 120px;
+}
+.btndecoration4:hover{
+  background-color: rgb(207, 207, 153);
+}
+
+.btndecoration5{
+  margin-top: 70px;
+  text-decoration: none;
+  background-color:aquamarine;
+  border: none;
+  color:black;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 130px;
+}
+.btndecoration5:hover{
+  background-color: rgb(207, 207, 153);
+}
+@media (max-width: 992px){
+  .btngraduatecollege{
+    height: 270px;
+  }
+
+  .btndecoration{
+    height: 50px;
+    width: 120px;
+  }
+  .btndecoration2{
+    height: 50px;
+    width: 150px;
+  }
+}
+
+@media (max-width: 520px){
+  .btngraduatecollege{
+    height: 290px;
+  }
+
+  #btndecroationadjust{
+    display:inline-block;
+    margin-top: 40px;
+    width: 200px;
+  }
+}
+@media (max-width: 489px){
+  .btngraduatecollege{
+    height: 470px;
+  }
+}
+@media (max-width: 450px){
+
+  .btngraduatecollege{
+    height: 400px;
+  }
+  #btndecroationadjust{
+    margin-top: 15px;
+    width: 300px;
+  }
+}
+@media (max-width: 470px){
+  .btngraduatecollege{
+    height: 360px;
+  }
+  #btndecroationadjust{
+    margin-top: 15px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 335px){
+  #btndecroationadjust{
+    margin-top: 15px;
+    width: 250px; 
+  }
+}
+
+/* college information bts style end*/
+
+.btngraduatecollege {
+ /* background: linear-gradient(-45deg, #aaee52, #e73c7e7c, #23a5d5a6, #5823d5);*/
+ background-color: azure;
+}
+
+
+
+
+
+
+
+
+    /* intro school---------------------------start*/
+    .info-headmaster{
+      border: 1px solid black;
+      height: 571px;
+     background-color: #efe4b0;
+     border: hidden;
+     text-align: center;
+    }
+    
+    @media (max-width: 750px) {
+      #intro-headmaster-adjcenter{
+        text-align: center;
+      }
+      #intro-headmaster{
+        width: 600px;
+      }
+      .info-headmaster{
+        height: 500px;
+      }
+
+    }
+    @media (max-width: 650px) {
+      #intro-headmaster{
+        width: 500px;
+      }
+      .info-headmaster{
+        height: 450px;
+      }
+      #map-set{
+        margin-top: 10px;
+        width: 500px;
+      }
+    }
+
+    @media (max-width: 550px) {
+      #intro-headmaster{
+        width: 450px;
+      }
+      .info-headmaster{
+        height: 400px;
+      }
+    }
+
+    @media (max-width: 500px) {
+      #intro-headmaster{
+        width: 400px;
+      }
+      .info-headmaster{
+        height: 350px;
+      }
+    }
+    @media (max-width: 400px) {
+      #intro-headmaster{
+        width: 350px;
+      }
+      .info-headmaster{
+        height: 300px;
+      }
+    }
+
+    @media (max-width: 370px) {
+      #intro-headmaster{
+        width: 300px;
+      }
+      .info-headmaster{
+        height: 300px;
+      }
+    }
+
+    @media (max-width: 300px) {
+      #intro-headmaster{
+        width: 270px;
+      }
+      .info-headmaster{
+        height: 250px;
+      }
+    }
+
+    /* intro school---------------------------end*/
+
+    /*staff info--------------------------------------------*/
+    #staff-info{
+      text-align: center;
+      margin-top: 60PX;
+    }
+            
+  
+    
+    .info-staff-style{
+      font-size: 40px;
+      color: black;
+      text-shadow: #FC0 1px 0 10px;
+    }
+
+  
+   .modal-header{
+    background-color:bisque !important;
+   }
+    .modal-body{
+      text-align: center;
+      background-color: bisque !important;
+    }
+    .modal-footer{
+      background-color: bisque !important;
+    }
+    .modal-img{
+      border: 1px solid black;
+      border: hidden;
+      border-radius: 5px;
+    
+    }
+    #modal-header-books{
+      background-color:#0275dd !important;
+    }
+    #modal-body-books{
+      background-color: #0275dd darkorange !important;
+    }
+    #modal-footer-books{
+      background-color: #0275dd !important;
+    }
+    .modalcontent{
+      text-align: start;
+      margin-top: 5px;
+    }
+
+    .table-striped{
+      border: 1px solid black;
+    border-color: #0275dd;
+    }
+
+  .hidden {
+      display: none;
+      position: fixed;
+  }
+  .table-container {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+
+#btn-table-move-derection{
+  text-align: end;
+}
+#btn-table-move{
+  width: 40px;
+  border-radius: 5px;
+  background-color:blueviolet;
+  color: white;
+}
+#btn-table-move:hover{
+  background-color: rgba(137, 43, 226, 0.438);
+}
+   
+    
+#myBtn {
+  /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover{
+  background-color: red;
+}
+
+  
+ 
+  .Contact-style{
+   border: 1px solid black;
+   border-radius: 5px;
+   background-color:darkcyan;
+   border: hidden;
+   height: 450px;
+  }
+  .contact-ad{
+    color: white;
+    padding-left: 30px;
+    padding-top: 50px;
+  }
+#contact-mapstyle{
+  margin-top: 20px;
+}
+
+
+@media (max-width: 700px) {
+
+  #contact-mapstyle{
+    margin-top: 20px;
+    display: block;
+  }
+  #col-contact-700px{
+    width: 100%;
+  }
+  #col-map-700px{
+    width: 100%;
+  }
+  #map-set{
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 650px) {
+
+ 
+  #map-set{
+    width: 100%;
+  
+  }
+}
+
+@media (max-width: 450px) {
+
+  #col-contact-700px{
+    margin-top: 10px;
+  }
+
+}
+
+@media (max-width: 440px) {
+
+ 
+  #col-contact-700px{
+    margin-top: 10px;
+  }
+   #map-set{
+    margin-top: 30px;
+  }
+  }
+  @media (max-width: 435px) {
+
+ 
+    #col-contact-700px{
+      margin-top: 10px;
+    }
+    }
+
+    @media (max-width: 430px) {
+
+ 
+      #col-contact-700px{
+        margin-top: 10px;
+      }
+      }
+      @media (max-width: 420px) {
+
+ 
+        #col-contact-700px{
+          margin-top: 10px;
+        }
+        }
+        @media (max-width: 415px) {
+         
+ 
+          #col-contact-700px{
+            margin-top: 10px;
+          }
+          }
+        @media (max-width: 410px) {
+
+ 
+          #col-contact-700px{
+            margin-top: 200px;
+          }
+          }
+
+          @media (max-width: 410px) {
+
+ 
+            #col-contact-700px{
+              margin-top: 10px;
+            }
+            }
+
+ @media (max-width: 400px) {
+
+ 
+            #col-contact-700px{
+              margin-top: 20px;
+            }
+     }           
+
+
+/*---------------------content islamia school start--------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------*/
+
+     .content-islami-school{
+      border: 1px solid black;
+      background-color: aquamarine;
+      height: 240px;
+      border: hidden;
+      text-align: start;
+     }
+
+     #content-islamia{
+      padding-top: 60px;
+     }
+
+     .islamia-con{
+      color: white;
+      padding-left: 30px;
+     }
+     .islamia-contact-number{
+      color:bisque;
+      padding-left: 30px;
+      text-decoration: none;
+     }
+
+     @media (max-width: 773px) {
+      .content-islami-school{
+        height: 290px;
+      }
+     }
+     @media (max-width: 468px) {
+      
+      .content-islami-school{
+       margin-top: 60px;
+       height: 340px !important;
+      }
+     }
+     @media (max-width: 440px) {
+      .content-islami-school{
+       margin-top: 60px;
+       height: 360px !important;
+      }
+     }
+
+     @media (max-width: 435px) {
+      .content-islami-school{
+       margin-top: 80px;
+      }
+     }
+
+     @media (max-width: 418px) {
+      .content-islami-school{
+       margin-top: 140px;
+       height: 380px !important;
+      }
+     }
+     @media (max-width: 414px) {
+      .content-islami-school{
+       margin-top: 160px;
+      }
+     }
+
+     @media (max-width: 410px) {
+      .content-islami-school{
+       margin-top: 180px;
+      }
+     }
+
+     @media (max-width: 405px) {
+      .content-islami-school{
+       margin-top: 220px;
+      }
+     }
+     @media (max-width: 550px) {
+      .content-islami-school{
+        height: 300px;
+      }
+     }
+
+     @media (max-width: 450px) {
+      .content-islami-school{
+        height: 320px;
+      }
+     }
+
+     @media (max-width: 447px) {
+      .content-islami-school{
+        height: 340px;
+      }
+     }
+
+     @media (max-width: 420px) {
+      .content-islami-school{
+        height: 360px;
+      }
+     }
+     @media (max-width: 380px) {
+      .content-islami-school{
+        height: 420px !important;
+      }
+     }
+     /*---------------------content islamia school end--------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------*/
+
+
+
+
+
+/*----------------------*/
+
+
+/*---------------btn books start--------------------------------------------------------
+---------------------------------------------------------
+-------------------------------------------------------*/
+
+.btn-6th-islamia-book{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #0277dd;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border: hidden;
+}
+.btn-6th-islamia-book:hover{
+  background-color: #0277dda9;
+}
+
+
+.btn-7th-islamia-book{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color:brown;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border: hidden;
+}
+.btn-7th-islamia-book:hover{
+  background-color: rgba(165, 42, 42, 0.589);
+}
+
+.btn-8th-islamia-book{
+  border: 1px solid black;
+  border-radius: 5px;
+  border: hidden;
+  background-color:darkcyan;
+  color: white;
+  width: 100px;
+  height: 40px;
+}
+.btn-8th-islamia-book:hover{
+  background-color: rgba(0, 139, 139, 0.575);
+}
+.btn-6-7-8-adjus{
+  text-align: center;
+}
+.btn-9th-islamia-book{
+  border: 1px solid black;
+  border-radius: 5px;
+  border: hidden;
+  background-color:darkslategrey;
+  color: white;
+  width: 120px;
+  height: 40px;
+}
+.btn-9th-islamia-book:hover{
+  background-color: rgba(47, 79, 79, 0.801);
+}
+.btn-9-islamia{
+  text-align: center;
+  margin-top: 5px;
+}
+.btn-10th-islamia-book{
+  border: 1px solid black;
+  border-radius: 5px;
+  border: hidden;
+  background-color:deeppink;
+  margin-top: 5px;
+  color: white;
+  width: 120px;
+  height: 40px;
+}
+.btn-10th-islamia-book:hover{
+  background-color: rgba(47, 79, 79, 0.801);
+}
+
+.btn-11th-islamia-book{
+  border: 1px solid black;
+  border-radius: 5px;
+  border: hidden;
+  background-color:blueviolet;
+  margin-top: 5px;
+  color: white;
+  width: 100px;
+  height: 40px;
+}
+.btn-11th-islamia-book:hover{
+  background-color: rgba(137, 43, 226, 0.479);
+}
+
+.btn-12th-islamia-book{
+  border: 1px solid black;
+  border-radius: 5px;
+  border: hidden;
+  background-color:crimson;
+  margin-top: 5px;
+  color: white;
+  width: 100px;
+  height: 40px;
+}
+.btn-12th-islamia-book:hover{
+  background-color: rgba(220, 20, 60, 0.514);
+}
+.btn-adjust-3{
+  text-align: center;
+}
+@media (max-width: 380px) {
+  .btn-7th-islamia-book{
+    margin-top: 5px;
+  }
+  .btn-9th-islamia-book{
+    margin-top: 5px;
+  }
+}
+@media (max-width: 485px) {
+  .btn-9th-islamia-book{
+    margin-top: 5px;
+    text-align: center;
+  }
+  .btn-9-islamia{
+    text-align: center;
+  }
+}
+@media (max-width: 380px) {
+  .btn-11th-islamia-book{
+    width: 120px;
+  }
+  .btn-12th-islamia-book{
+    width: 120px;
+  }
+} 
+
+@media (max-width: 380px) {
+
+  .btn-6th-islamia-book{
+    width: 120px;
+  }
+  .btn-7th-islamia-book{
+    width: 120px;
+  }
+
+  .btn-8th-islamia-book{
+    margin-top: 5px;
+    width: 120px;
+  }
+}
+/*---------------btn books end--------------------------------------------------------
+---------------------------------------------------------
+-------------------------------------------------------*/
+
+
+     /*---------------footer style-----------------------------------------------------------
+     --------------------------------------------------------------------------
+     ------------------------------------------------start------*/
+
+
+     #footerstyle{
+      border: 1px solid black;
+      width: 100%;
+      height: 400px;
+      background-color:cornflowerblue;
+      border: hidden;
+      margin-top: 30px;
+     }
+         /*---------------footer style-----------------------------------------------------------
+     --------------------------------------------------------------------------
+     ------------------------------------------------end------*/
+
+
+     /* Tooltip container ---------------------------------------------
+     --------------------------------------------------------------------
+     ------------------------------------------------start*/
+   /* Tooltip container */
+/*--------------------------------------------------------
+-----------------------------------------------------------------------------
+-------------------------------------------------------------end-*/
+
+
+/*------notification page code style----- start----------------------------------
+----------------------------------------------------------------------------------
+--------------------------------------------------------------------------------*/
+
+
+#notification_border{
+border: 1px solid black;
+height: 250px;
+margin-top: 100px;
+border: hidden;
+}
+
+#notification_border_text{
+  border: 1px solid black;
+  height: 250px;
+  background-color:rgba(245, 222, 179, 0.26);
+  border: hidden;
+  font-size: 25px;
+  font-family:'Courier New', Courier, monospace;
+  color: darkblue;
+  padding-top: 70px;
+}
+#notification_border_col_4{
+  border: 1px solid black;
+  height: 250px;
+  background-color:rgba(255, 204, 0, 0.411);
+  border: hidden;
+}
+
+
+@media (max-width: 773px) {
+
+  #notification_border_text{
+    padding-top: 50px;
+  }
+
+ 
+}
+@media (max-width: 574px) {
+
+  #notification_border_text{
+    padding-top: 50px;
+  }
+
+}
+
+@media (max-width: 485px) { 
+  #notification_border_col_4{
+    display: none;
+  }
+  #notification_border_text{
+    padding-top: 60px;
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 370px) { 
+
+  #notification_border_text{
+    padding-top: 40px;
+
+  }
+}
+
+@media (max-width: 330px) { 
+  #notification_border_text{
+    padding-top: 20px;
+  }
+}
+
+
+.notification_content_border{
+  border: 1px solid black;
+  height: 500px;
+  margin-top: 20px;
+  border: hidden;
+  background-color:lightcyan;
+}
+/*------notification page code style----- end----------------------------------
+----------------------------------------------------------------------------------
+--------------------------------------------------------------------------------*/
